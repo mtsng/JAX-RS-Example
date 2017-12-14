@@ -1,0 +1,34 @@
+package com.blitz.beans;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="User")
+public class User {
+	@Id
+	@Column(name="userId")
+	@SequenceGenerator(sequenceName="user_seq", name="user_seq")
+	@GeneratedValue(name="user_seq", strategy=GENERATORTYPE.SEQUENCE)
+	private int userId;
+	private String username;
+	
+	public User(String username) {
+		super();
+		this.username = username;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	
+	
+}

@@ -1,0 +1,9 @@
+package com.blitz.util;
+
+public class HibernateUtil {
+	private static SesionFactory sessionFactory = 
+			new Configuration().configure().
+			buildSessionFactory();
+	
+	public static 
+}

@@ -1,0 +1,12 @@
+package com.blitz.hibernate;
+
+import com.blitz.userdao.UserDAO;
+
+public class InsertData {
+
+	public static void main(String[] args) {
+		UserDAO udao = new UserDAO();
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.blitz.hibernate;
+
+import com.blitz.beans.User;
+import com.blitz.userdao.UserDAO;
+
+public class InsertData {
+
+	public static void main(String[] args) {
+		UserDAO udao = new UserDAO();
+		User u = new User("Han");
+		
+		System.out.println("User inserted at: " + udao.insertUser(u));
+		//User is a keyword ?
+
+	}
+
+}

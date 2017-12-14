@@ -1,0 +1,10 @@
+package com.blitz.hibernate;
+
+public class InsertData {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
