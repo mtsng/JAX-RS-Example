@@ -1,0 +1,9 @@
+package com.blitz.rest;
+
+public class HelloWorld {
+	@GET
+	@Path("{param}")
+	public Response getMsg(@PathParm("param") String msg)")) {
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.blitz.rest;
+
+public class HelloWorld {
+
+}
