@@ -1,0 +1,8 @@
+package com.blitz.rest;
+
+import javax.ws.rs.Path;
+
+@Path("/goodbye")
+public class GoodbyeWorld {
+
+}

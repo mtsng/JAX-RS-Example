@@ -1,0 +1,12 @@
+package com.blitz.util;
+
+import javax.servlet.http.HttpServletRequestWrapper;
+import javax.ws.rs.core.MultivaluedMap;
+
+public class RequestWrapper extends HttpServletRequestWrapper{
+	private MultivaluedMap<String, String> form;
+	
+	public RequestWrapper(HttpServletRequest request, MultivaluedMap<String, String> form) {
+		
+	}
+}

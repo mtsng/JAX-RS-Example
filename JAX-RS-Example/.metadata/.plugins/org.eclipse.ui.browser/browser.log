@@ -42,3 +42,23 @@ Dec 14, 2017 10:12:52.42
 Dec 14, 2017 10:12:52.42 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 Dec 14, 2017 10:12:52.43 
 Dec 14, 2017 10:12:52.45 [Parent 9132, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Dec 15, 2017 10:49:05.42 NEW SESSION
+Dec 15, 2017 10:49:05.42 Unable to read VR Path Registry from C:\Users\kakas_000\AppData\Local\openvr\openvrpaths.vrpath
+Dec 15, 2017 10:49:05.44 [Child 9704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Dec 15, 2017 10:49:06.15 
+Dec 15, 2017 10:49:06.17 ###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Dec 15, 2017 10:49:06.18 
+Dec 15, 2017 10:49:06.18 
+Dec 15, 2017 10:49:06.20 ###!!! [Parent][MessageChannel] Error: (msgtype=0x15008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Dec 15, 2017 10:49:06.21 
+Dec 15, 2017 10:49:06.23 
+Dec 15, 2017 10:49:06.25 ###!!! [Parent][MessageChannel] Error: (msgtype=0x150083,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Dec 15, 2017 10:49:06.26 
+Dec 15, 2017 10:49:06.28 
+Dec 15, 2017 10:49:06.29 ###!!! [Child][MessageChannel] Error: (msgtype=0x2400A6,name=PContent::Msg_SetGeolocationHigherAccuracy) Closed channel: cannot send/recv
+Dec 15, 2017 10:49:06.29 
+Dec 15, 2017 10:49:06.69 
+Dec 15, 2017 10:49:06.71 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Dec 15, 2017 10:49:06.74 
+Dec 15, 2017 10:49:06.83 Unable to read VR Path Registry from C:\Users\kakas_000\AppData\Local\openvr\openvrpaths.vrpath

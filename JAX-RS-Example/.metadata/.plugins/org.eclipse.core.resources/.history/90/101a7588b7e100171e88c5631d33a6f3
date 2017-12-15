@@ -1,0 +1,5 @@
+package com.blitz.beans;
+
+public class Tuser {
+	public String username;
+}
