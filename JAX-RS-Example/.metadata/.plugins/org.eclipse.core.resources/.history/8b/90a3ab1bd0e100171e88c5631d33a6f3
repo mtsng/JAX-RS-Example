@@ -6,8 +6,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Request;
+import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
+import com.blitz.beans.SimpleUser;
 
 @Path("/goodbye")
 public class GoodbyeWorld {
@@ -19,7 +21,7 @@ public class GoodbyeWorld {
 	
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)
-	public void outputData(String json){
-		System.out.println(json);
+	public void outputData(){
+		
 	} 
 }

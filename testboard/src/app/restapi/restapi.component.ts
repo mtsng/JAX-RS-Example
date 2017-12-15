@@ -18,13 +18,14 @@ export class RestapiComponent{
   );
 
   public username;
+  public password;
 
   constructor(private http:HttpClient){
 
   }
 
   public postData = function(){
-    let body = {"username": this.username};
+    let body = {"username": this.username, "password":this.password};
   //  let body = new URLSearchParams();
     //body.set('username', this.username);
     this.http.post('http://localhost:8081/testboard/rest/goodbye',
